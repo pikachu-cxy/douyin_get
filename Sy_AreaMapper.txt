@@ -1,0 +1,17 @@
+package com.shareworks.water.mapper.system;
+
+import com.shareworks.water.entity.system.Sy_Area;
+
+public interface Sy_AreaMapper {
+    int deleteByPrimaryKey(Integer id);
+
+    int insert(Sy_Area record);
+
+    int insertSelective(Sy_Area record);
+
+    Sy_Area selectByPrimaryKey(Integer id);
+
+    int updateByPrimaryKeySelective(Sy_Area record);
+
+    int updateByPrimaryKey(Sy_Area record);
+}
